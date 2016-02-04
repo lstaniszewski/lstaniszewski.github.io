@@ -73,19 +73,19 @@
       ]
     },
     {
-      "name": "Python",
-      "level": "5/10",
-      "keywords": [
-        "django"
-      ]
-    },
-    {
       "name": "Other",
       "level": "",
       "keywords": [
         "gulp/grunt",
         "photoshop",
         "GIT"
+      ]
+    },
+    {
+      "name": "Python",
+      "level": "5/10",
+      "keywords": [
+        "django"
       ]
     }
   ],
