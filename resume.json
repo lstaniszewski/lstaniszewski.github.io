@@ -23,7 +23,12 @@
       {
         "network": "Stackoverflow",
         "username": "Łukasz Staniszewski",
-        "url": ""
+        "url": "http://stackoverflow.com/users/1517577/Łukasz-staniszewski?tab=profile"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "Łukasz Staniszewski",
+        "url": "https://www.linkedin.com/in/łukasz-staniszewski-923ab2110?trk=hp-identity-name"
       }
     ]
   },
@@ -60,6 +65,7 @@
         "vanillajs",
         "angularjs",
         "jQuery",
+        "jasmine",
         "nodejs"
       ]
     },
