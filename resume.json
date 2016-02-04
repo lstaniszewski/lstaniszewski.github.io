@@ -1,0 +1,107 @@
+{
+  "basics": {
+    "name": "Łukasz Staniszewski",
+    "label": "Webdeveloper",
+    "picture": "https://avatars2.githubusercontent.com/u/2866458?v=3&s=460",
+    "email": "staniszewski.lukasz@icloud.com",
+    "phone": "510199042",
+    "website": "http://lstaniszewski.github.io",
+    "summary": "",
+    "location": {
+      "address": "Powstańców Śląskich 191",
+      "postalCode": "53-138",
+      "city": "Wrocław",
+      "countryCode": "PL",
+      "region": "Dolnosląskie"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "lstaniszewski",
+        "url": "https://github.com/lstaniszewski"
+      },
+      {
+        "network": "Stackoverflow",
+        "username": "Łukasz Staniszewski",
+        "url": ""
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "DOOK",
+      "position": "webdeveloper/frontend developer",
+      "website": "http://dook.pro",
+      "startDate": "2013-07-01",
+      "endDate": "",
+      "summary": "",
+      "highlights": []
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Politechnika Wrocławska",
+      "area": "Elektronika i Telekomunikacja",
+      "studyType": "Inżynierskie",
+      "startDate": "2009-09-01",
+      "endDate": "",
+      "gpa": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Javascript",
+      "level": "6/10",
+      "keywords": [
+        "vanillajs",
+        "angularjs",
+        "jQuery",
+        "nodejs"
+      ]
+    },
+    {
+      "name": "CSS/HTML5",
+      "level": "8/10",
+      "keywords": [
+        "css",
+        "less/sass",
+        "html5"
+      ]
+    },
+    {
+      "name": "Python",
+      "level": "5/10",
+      "keywords": [
+        "django"
+      ]
+    },
+    {
+      "name": "Other",
+      "level": "",
+      "keywords": [
+        "gulp/grunt",
+        "photoshop",
+        "GIT"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "B2E"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Sport",
+      "keywords": [
+        "football"
+      ]
+    }
+  ],
+  "references": []
+}
