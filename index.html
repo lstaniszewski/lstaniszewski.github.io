@@ -7,9 +7,21 @@
     <title> </title>
     <link href="http://bootswatch.com/lumen/bootstrap.min.css" rel="stylesheet" />
    <style>
+      .skills h4 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.date {
+    font-size: 15px;
+    line-height: 24px;
+}
+.website {
+    line-height: 18px;
+}
+
     </style>
 
-
+  
   </head>
   <body>
     <div class="container">
@@ -22,7 +34,7 @@
         <h2>Wrocław</h2>
         </div>
         <div class="col-md-6 col-sm-12">
-        <img class="media-object img-circle pull-right" data-src="holder.js/64x64" alt="64x64" src="https://avatars2.githubusercontent.com/u/2866458?v=3&s=460" style="width: 100px; height: 100px; margin-top: 20px;">
+        <img class="media-object img-circle pull-right" data-src="holder.js/64x64" alt="64x64" src="&#x2F;&#x2F;www.gravatar.com&#x2F;avatar&#x2F;6d4f644912e1700aa466cc912b8b0dc9?s=100&amp;r=pg&amp;d=mm" style="width: 100px; height: 100px; margin-top: 20px;">
 
         </div>
         </div>
@@ -32,10 +44,32 @@
           <h3>About</h3>
         </header>
         <div class="col-md-9">
-        <p></p>
-        <strong>Phone:</strong> 510199042 <br />
-        <strong>Email:</strong> <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="6c1f180d02051f16091b1f0705420019070d1f162c050f00031908420f0301">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">
+          <p></p>
+          <strong>Phone:</strong> 510199042 <br />
+          <strong>Email:</strong> <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="384b4c5956514b425d4f4b535116544d53594b4278515b54574d5c165b5755">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">
 /* <![CDATA[ */!function(){try{var t="currentScript"in document?document.currentScript:function(){for(var t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("data-cfhash"))return t[e]}();if(t&&t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute("data-cfemail");if(a){for(e="",r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}t.parentNode.removeChild(t);}}catch(u){}}()/* ]]> */</script><br />
+          <section id="profiles">
+            <div class="row">
+              <div class="col-sm-6">
+                <strong class="network">
+                  Github
+                </strong>
+                <div class="username">
+                  <div class="url">
+                    <a target="_blank" href="https:&#x2F;&#x2F;github.com&#x2F;lstaniszewski">lstaniszewski</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <strong class="network">
+                  Stackoverflow
+                </strong>
+                <div class="username">
+                    Łukasz Staniszewski
+                </div>
+              </div>
+            </div>
+          </section>
         </div>
       </section>
       <section class="row">
@@ -44,12 +78,14 @@
         </header>
         <div class="col-md-9">
           <div class="skills">
-            <h3>DOOK</h3>
-            <strong>webdeveloper&#x2F;frontend developer</strong>
-            <p>2013 - Present</p>
-            <p></p>
-            <ul>
-            </ul>
+              <h3>DOOK<span class="date pull-right">2013 - Present</span></h3>
+              <strong>webdeveloper&#x2F;frontend developer</strong>
+                <div class="website pull-right">
+                  <a target="_blank" href="http:&#x2F;&#x2F;dook.pro">http:&#x2F;&#x2F;dook.pro</a>
+                </div>
+              <p></p>
+              <ul>
+              </ul>
             <hr />
           </div>
         </div>
@@ -61,12 +97,9 @@
         </header>
         <div class="col-md-9">
           <div class="skills">
-            <h3>Politechnika Wrocławska</h3>
-            <h4>Elektronika i Telekomunikacja, Inżynierskie</h4>
-            <p>2009 - Present</p>
+            <h3>Politechnika Wrocławska<span class="date pull-right">2009 - Present</span></h3>
+            <strong>Elektronika i Telekomunikacja, Inżynierskie</strong>
             <p></p>
-            <ul>
-            </ul>
             <hr />
           </div>
         </div>
@@ -76,11 +109,10 @@
           <h3>Skills</h3>
         </header>
         <div class="col-md-9">
-          <div class="row-fluid skills">
-            <ul class="col-md-6">
-
+          <div class="skills">
+            <ul>
               <li>
-                <h4>Javascript</h4>
+                <h4>Javascript <span class="pull-right"></span></h4>
                 <ul>
                   <li>vanillajs</li>
                   <li>angularjs</li>
@@ -89,10 +121,9 @@
                 </ul>
               </li>
             </ul>
-            <ul class="col-md-6">
-
+            <ul>
               <li>
-                <h4>CSS&#x2F;HTML5</h4>
+                <h4>CSS&#x2F;HTML5 <span class="pull-right"></span></h4>
                 <ul>
                   <li>css</li>
                   <li>less&#x2F;sass</li>
@@ -100,10 +131,17 @@
                 </ul>
               </li>
             </ul>
-            <ul class="col-md-6">
-
+            <ul>
               <li>
-                <h4>Other</h4>
+                <h4>Python <span class="pull-right"></span></h4>
+                <ul>
+                  <li>django</li>
+                </ul>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <h4>Other <span class="pull-right"></span></h4>
                 <ul>
                   <li>gulp&#x2F;grunt</li>
                   <li>photoshop</li>
@@ -111,13 +149,18 @@
                 </ul>
               </li>
             </ul>
-            <ul class="col-md-6">
-
+          </div>
+        </div>
+      </section>
+      <section class="row">
+        <header class="col-md-3">
+          <h3>Languages</h3>
+        </header>
+        <div class="col-md-9">
+          <div class="skills">
+            <ul>
               <li>
-                <h4>Python</h4>
-                <ul>
-                  <li>django</li>
-                </ul>
+                <h4>English <span class="pull-right">B2E</span></h4>
               </li>
             </ul>
           </div>

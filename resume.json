@@ -55,7 +55,7 @@
   "skills": [
     {
       "name": "Javascript",
-      "level": "6/10",
+      "level": "",
       "keywords": [
         "vanillajs",
         "angularjs",
@@ -65,11 +65,18 @@
     },
     {
       "name": "CSS/HTML5",
-      "level": "8/10",
+      "level": "",
       "keywords": [
         "css",
         "less/sass",
         "html5"
+      ]
+    },
+    {
+      "name": "Python",
+      "level": "",
+      "keywords": [
+        "django"
       ]
     },
     {
@@ -79,13 +86,6 @@
         "gulp/grunt",
         "photoshop",
         "GIT"
-      ]
-    },
-    {
-      "name": "Python",
-      "level": "5/10",
-      "keywords": [
-        "django"
       ]
     }
   ],
