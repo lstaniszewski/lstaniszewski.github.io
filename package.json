@@ -1,0 +1,44 @@
+{
+  "name": "lstaniszewski.github.io",
+  "version": "1.0.0",
+  "description": "Homepage",
+  "main": "app.js",
+  "dependencies": {
+    "angular": "1.4.9",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "jshint": "^2.9.1",
+    "jshint-loader": "^0.8.3",
+    "json-loader": "^0.5.4",
+    "ng-annotate-loader": "^0.1.0",
+    "node-sass": "^3.4.2",
+    "sass-loader": "^3.1.2",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.13",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "scripts": {
+    "test": "test",
+    "start": "node node_modules/.bin/webpack-dev-server --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lstaniszewski/lstaniszewski.github.io.git"
+  },
+  "keywords": [
+    "homepage",
+    "resume",
+    "angular",
+    "javascript",
+    "html5",
+    "css"
+  ],
+  "author": "Łukasz Staniszewski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lstaniszewski/lstaniszewski.github.io/issues"
+  },
+  "homepage": "https://github.com/lstaniszewski/lstaniszewski.github.io#readme"
+}

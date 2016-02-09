@@ -1,0 +1,201 @@
+.social {
+    &__icon {
+        margin-left: 5px;
+        min-width: 35px;
+        display: inline-block;
+        font-size: 2em;
+
+        &:hover {
+            text-decoration: none;
+        }
+
+        &:first-child {
+            margin-left: 0;
+        }
+
+        &--github {
+            color: #454545;
+            &:hover,
+            &:focus {
+                color: #2b2b2b;
+            }
+        }
+        &--twitter {
+            color: #33ccff;
+            &:hover,
+            &:focus {
+                color: #00bfff;
+            }
+        }
+        &--blog {
+            color: #f36f24;
+            &:hover,
+            &:focus {
+                color: #d8560c;
+            }
+        }
+        &--skype {
+            color: #12a5f4;
+            &:hover,
+            &:focus {
+                color: #0986ca;
+            }
+        }
+        &--instagram {
+            color: #3f729b;
+            &:hover,
+            &:focus {
+                color: #305777;
+            }
+        }
+        &--linkedin {
+            color: #007bb6;
+            &:hover,
+            &:focus {
+                color: #005983;
+            }
+        }
+        &--stackoverflow {
+            color: #8e8e92;
+            &:hover,
+            &:focus {
+                color: #747479;
+            }
+        }
+        &--stackexchange {
+            color: #62b0df;
+            &:hover,
+            &:focus {
+                color: #389bd6;
+            }
+        }
+        &--lastfm {
+            color: #d12127;
+            &:hover,
+            &:focus {
+                color: #a51a1f;
+            }
+        }
+        &--soundcloud {
+            color: #e8822d;
+            &:hover,
+            &:focus {
+                color: #cc6916;
+            }
+        }
+        &--googleplus,
+        &--youtube {
+            color: #dd4b39;
+            &:hover,
+            &:focus {
+                color: #c23321;
+            }
+        }
+        &--pinterest {
+            color: #bd091f;
+            &:hover,
+            &:focus {
+                color: #8c0717;
+            }
+        }
+        &--gratipay {
+            color: #663300;
+            &:hover,
+            &:focus {
+                color: #331a00;
+            }
+        }
+        &--vimeo {
+            color: #17b3e8;
+            &:hover,
+            &:focus {
+                color: #128fba;
+            }
+        }
+        &--behance {
+            color: #2c98cf;
+            &:hover,
+            &:focus {
+                color: #2379a5;
+            }
+        }
+        &--codepen {
+            color: #1c1c1c;
+            &:hover,
+            &:focus {
+                color: #020202;
+            }
+        }
+        &--foursquare {
+            color: #fa4778;
+            &:hover,
+            &:focus {
+                color: #f91554;
+            }
+        }
+        &--reddit {
+            color: #545454;
+            &:hover,
+            &:focus {
+                color: #3b3b3b;
+            }
+        }
+        &--spotify {
+            color: #acd200;
+            &:hover,
+            &:focus {
+                color: #829f00;
+            }
+        }
+        &--tumblr {
+            color: #2d4661;
+            &:hover,
+            &:focus {
+                color: #1d2d3e;
+            }
+        }
+        &--dribbble {
+            color: #ce366f;
+            &:hover,
+            &:focus {
+                color: #a82959;
+            }
+        }
+        &--facebook {
+            color: #4b6daa;
+            &:hover,
+            &:focus {
+                color: #3b5687;
+            }
+        }
+        &--angellist {
+            color: #000000;
+            &:hover,
+            &:focus {
+                color: #000000;
+            }
+        }
+        &--bitbucket {
+            color: #205081;
+            &:hover,
+            &:focus {
+                color: #163758;
+            }
+        }
+        &--hackernews {
+            color: #ff6600;
+            &:hover,
+            &:focus {
+                color: #cc5200;
+            }
+        }
+        &--exercism {
+            color: #d81d4e;
+            &:hover,
+            &:focus {
+                color: #ab173e;
+            }
+        }
+
+    }
+}

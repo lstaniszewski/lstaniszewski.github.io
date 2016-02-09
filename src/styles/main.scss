@@ -1,0 +1,214 @@
+@import "_icomoon.scss";
+@import "_socialIcons.scss";
+
+body {
+    font-family: 'Lato';
+    background: #f0f0f0;
+    color: #333333;
+    padding: 5px 0;
+
+    @media (min-width: 1400px) {
+        width: 1400px;
+    }
+}
+.profileCard {
+    background: #ffffff;
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    min-height: 300px;
+    padding: 15px;
+
+    &__picture {
+        padding: 20px 0;
+    }
+    &__image {
+        display: block;
+        margin: 0 auto;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+    &__name {
+        text-align: center;
+    }
+    &__jobTitle {
+        color: #777;
+    }
+    &__detail {
+        padding: 20px 0;
+        margin: 20px 0;
+        border-top: 1px solid #eee;
+        border-bottom: 1px solid #eee;
+    }
+    &__social {
+        line-height: 2.5;
+        text-align: center;
+    }
+}
+.detailItem {
+    display: table;
+    padding: 10px 0;
+
+    &__icon {
+        display: table-cell;
+        vertical-align: middle;
+        padding: 0 10px;
+        color: #707070;
+        font-size: 1.33333333em;
+        line-height: .75em;
+    }
+    &__text {
+        display: table-cell;
+        vertical-align: middle;
+        font-size: 0.8em;
+    }
+}
+.backgroundCard {
+    background: #ffffff;
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    min-height: 300px;
+    padding: 10px 20px;
+
+    &__titleMain {
+        color: #707070;
+        text-transform: uppercase;
+
+        @media (max-width: 480px) {
+            text-align: center;
+        }
+    }
+    &__title {
+        color: #707070;
+        text-transform: uppercase;
+
+        @media (max-width: 480px) {
+            display: none;
+        }
+    }
+    &__detail {
+        display: table;
+        padding: 10px 0;
+    }
+    &__icon {
+        display: table-cell;
+        padding: 0 10px;
+        width: 45px;
+        text-align: center;
+        font-size: 1.33333333em;
+        color: #707070;
+        line-height: .75em;
+        vertical-align: -15%;
+
+        @media (max-width: 480px) {
+            display: block;
+            width: 100%;
+        }
+    }
+    &__mobileTitle {
+        display: none;
+
+        @media (max-width: 480px) {
+            display: inline-block;
+            margin-left: 5px;
+            font-size: 1em;
+            font-weight: bold;
+            line-height: 1.4em;
+            text-transform: uppercase;
+            vertical-align: middle;
+        }
+    }
+    &__info {
+        display: table-cell;
+        padding: 0 10px;
+        width: 100%;
+
+        @media (max-width: 480px) {
+            display: block;
+        }
+    }
+    &__listElement {
+        padding: 10px 10px 20px;
+        border-top: 1px solid #e6e6e6;
+    }
+    &__currentEvent {
+        font-size: 8px;
+        color: #5ACE24;
+        position: absolute;
+        right: 100%;
+        top: 6px;
+        left: -10px;
+    }
+}
+.volunteer,
+.workExperience {
+    &__jobPosition {
+        position: relative;
+        margin: 0;
+    }
+    &__jobCompany {
+        @media (max-width: 480px) {
+            display: block;
+        }
+    }
+}
+.schoolDate,
+.jobDate {
+    color: #777;
+    font-size: 85%;
+
+    &__date {
+        margin-right: 10px;
+    }
+    &__icon:before {
+        margin-right: 5px;
+    }
+}
+.skills {
+    &__labelsList {
+        margin-top: 10px;
+        line-height: 2;
+    }
+    &__label {
+        display: inline-block;
+        background: #7eb0db;
+        color: #fff;
+        font-size: 0.9em;
+        font-weight: 700;
+        line-height: 1;
+        text-align: center;
+        white-space: nowrap;
+        padding: 5px;
+        margin-right: 5px;
+        border: 1px solid #357ebd;
+        border-radius: 3px;
+        vertical-align: baseline;
+    }
+}
+.education {
+    &__school {
+        position: relative;
+        margin: 0;
+    }
+}
+.interests {
+    &__list {
+        padding: 10px 10px 20px;
+        border-top: 1px solid #e6e6e6;
+    }
+}
+.awards,
+.publications {
+    &__info,
+    &__summary {
+        margin: 0;
+    }
+    &__date {
+        color: #777
+    }
+}
+.reference {
+    &__text {
+        margin: 0;
+    }
+}
