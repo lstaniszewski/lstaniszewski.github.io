@@ -21,7 +21,8 @@
   },
   "scripts": {
     "test": "test",
-    "start": "node node_modules/.bin/webpack-dev-server --hot"
+    "start": "node node_modules/.bin/webpack-dev-server --hot",
+    "build": "node node_modules/.bin/webpack"
   },
   "repository": {
     "type": "git",

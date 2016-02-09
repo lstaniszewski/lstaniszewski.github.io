@@ -1,191 +1,232 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> </title>
-    <link href="http://bootswatch.com/lumen/bootstrap.min.css" rel="stylesheet" />
-   <style>
-      .skills h4 {
-    margin-top: 20px;
-    margin-bottom: 5px;
-}
-.date {
-    font-size: 15px;
-    line-height: 24px;
-}
-.website {
-    line-height: 18px;
-}
-
-    </style>
-
-  
-  </head>
-  <body>
-    <div class="container">
-  <div class="row">
-    <div class="col-md-8 col-md-offset-2">
-      <div class="row">
-        <div class="col-md-6 col-sm-12">
-        <h1>Łukasz Staniszewski<h1>
-
-        <h2>Wrocław</h2>
-        </div>
-        <div class="col-md-6 col-sm-12">
-        <img class="media-object img-circle pull-right" data-src="holder.js/64x64" alt="64x64" src="&#x2F;&#x2F;www.gravatar.com&#x2F;avatar&#x2F;6d4f644912e1700aa466cc912b8b0dc9?s=100&amp;r=pg&amp;d=mm" style="width: 100px; height: 100px; margin-top: 20px;">
-
-        </div>
-        </div>
-      <hr style="color: #ccc; height: 4px;" />
-      <section class="row">
-        <header class="col-md-3">
-          <h3>About</h3>
-        </header>
-        <div class="col-md-9">
-          <p></p>
-          <strong>Phone:</strong> 510199042 <br />
-          <strong>Email:</strong> <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="1d6e697c73746e67786a6e7674337168767c6e675d747e71726879337e7270">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">
-/* <![CDATA[ */!function(){try{var t="currentScript"in document?document.currentScript:function(){for(var t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("data-cfhash"))return t[e]}();if(t&&t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute("data-cfemail");if(a){for(e="",r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}t.parentNode.removeChild(t);}}catch(u){}}()/* ]]> */</script><br />
-          <section id="profiles">
-            <div class="row">
-              <div class="col-sm-6">
-                <strong class="network">
-                  Github
-                </strong>
-                <div class="username">
-                  <div class="url">
-                    <a target="_blank" href="https:&#x2F;&#x2F;github.com&#x2F;lstaniszewski">lstaniszewski</a>
-                  </div>
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Łukasz Staniszewski</title>
+    <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+</head>
+<body class="container-fluid" ng-controller="MainController">
+    <div class="row main clearfix">
+        <section class="col-md-3 col-xs-12 profileCard">
+            <div class="profileCard__info">
+                <div class="profileCard__picture">
+                    <img class="profileCard__image" alt="Łukasz Staniszewski" src="{{ resume.basics.picture }}"/>
                 </div>
-              </div>
-              <div class="col-sm-6">
-                <strong class="network">
-                  Stackoverflow
-                </strong>
-                <div class="username">
-                  <div class="url">
-                    <a target="_blank" href="http:&#x2F;&#x2F;stackoverflow.com&#x2F;users&#x2F;1517577&#x2F;Łukasz-staniszewski?tab=profile">Łukasz Staniszewski</a>
-                  </div>
+                <div class="profileCard__name text-center">
+                    <h3><b>{{ resume.basics.name }}</b></h3>
+                    <h5 class="profileCard__jobTitle">{{ resume.basics.label }}</h5>
                 </div>
-              </div>
-              <div class="col-sm-6">
-                <strong class="network">
-                  LinkedIn
-                </strong>
-                <div class="username">
-                  <div class="url">
-                    <a target="_blank" href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;łukasz-staniszewski-923ab2110?trk=hp-identity-name">Łukasz Staniszewski</a>
-                  </div>
-                </div>
-              </div>
             </div>
-          </section>
-        </div>
-      </section>
-      <section class="row">
-        <header class="col-md-3">
-          <h3>Work Experience</h3>
-        </header>
-        <div class="col-md-9">
-          <div class="skills">
-              <h3>DOOK<span class="date pull-right">2013 - Present</span></h3>
-              <strong>webdeveloper&#x2F;frontend developer</strong>
-                <div class="website pull-right">
-                  <a target="_blank" href="http:&#x2F;&#x2F;dook.pro">http:&#x2F;&#x2F;dook.pro</a>
+            <div class="profileCard__detail clearfix">
+                <div class="profileCard__detailItem detailItem">
+                    <span class="icon icon-location detailItem__icon"></span>
+                    <span class="detailItem__text">{{ resume.basics.location.city }}, {{ resume.basics.location.countryCode }}</span>
                 </div>
-              <p></p>
-              <ul>
-              </ul>
-            <hr />
-          </div>
-        </div>
-      </section>
-
-      <section class="row">
-        <header class="col-md-3">
-          <h3>Education</h3>
-        </header>
-        <div class="col-md-9">
-          <div class="skills">
-            <h3>Politechnika Wrocławska<span class="date pull-right">2009 - Present</span></h3>
-            <strong>Elektronika i Telekomunikacja, Inżynierskie</strong>
-            <p></p>
-            <hr />
-          </div>
-        </div>
-      </section>
-      <section class="row">
-        <header class="col-md-3">
-          <h3>Skills</h3>
-        </header>
-        <div class="col-md-9">
-          <div class="skills">
-            <ul>
-              <li>
-                <h4>Javascript <span class="pull-right"></span></h4>
-                <ul>
-                  <li>vanillajs</li>
-                  <li>angularjs</li>
-                  <li>jQuery</li>
-                  <li>jasmine</li>
-                  <li>nodejs</li>
-                </ul>
-              </li>
-            </ul>
-            <ul>
-              <li>
-                <h4>CSS&#x2F;HTML5 <span class="pull-right"></span></h4>
-                <ul>
-                  <li>css</li>
-                  <li>less&#x2F;sass</li>
-                  <li>html5</li>
-                </ul>
-              </li>
-            </ul>
-            <ul>
-              <li>
-                <h4>Python <span class="pull-right"></span></h4>
-                <ul>
-                  <li>django</li>
-                </ul>
-              </li>
-            </ul>
-            <ul>
-              <li>
-                <h4>Other <span class="pull-right"></span></h4>
-                <ul>
-                  <li>gulp&#x2F;grunt</li>
-                  <li>photoshop</li>
-                  <li>GIT</li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
-      <section class="row">
-        <header class="col-md-3">
-          <h3>Languages</h3>
-        </header>
-        <div class="col-md-9">
-          <div class="skills">
-            <ul>
-              <li>
-                <h4>English <span class="pull-right">B2E</span></h4>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
+                <div class="profileCard__detailItem detailItem">
+                    <span class="icon icon-phone detailItem__icon"></span>
+                    <span class="detailItem__text">{{ resume.basics.phone }}</span>
+                </div>
+                <div class="profileCard__detailItem detailItem">
+                    <span class="icon icon-mail detailItem__icon"></span>
+                    <span class="detailItem__text">
+                        <a href="mailto:{{ resume.basics.email }}">{{ resume.basics.email }}</a>
+                    </span>
+                </div>
+                <div class="profileCard__detailItem detailItem">
+                    <span class="icon icon-link detailItem__icon"><i class="icon fs-lg "></i></span>
+                    <span class="detailItem__text"><a href="{{ resume.basics.website }}" target="_blank">{{ resume.basics.website }}</a></span>
+                </div>
+                <div class="profileCard__detailItem detailItem">
+                    <span class="icon icon-language detailItem__icon"></span>
+                    <span class="detailItem__text">{{ resume.basics.languages }}</span>
+                </div>
+            </div>
+            <div class="profileCard__social social">
+                <a ng-repeat="item in resume.basics.profiles" class="social__icon social__icon--{{ item.label }} icon-{{ item.label }}" href="{{ item.url }}" target="_blank" title="Łukasz Staniszewski on {{ item.network }}"></a>
+            </div>
+        </section>
+        <section class="col-md-9 col-xs-12 backgroundCard">
+            <h4 class="backgroundCard__titleMain">Background</h4><hr/>
+            <div class="backgroundCard__detail about" ng-if="resume.basics.summary">
+                <div class="backgroundCard__icon">
+                    <span class="icon icon-board"></span>
+                    <span class="backgroundCard__mobileTitle">About</span>
+                </div>
+                <div class="backgroundCard__info">
+                    <h4 class="backgroundCard__title">About</h4>
+                    <div class="about__summary">{{ resume.basics.summary }}</div>
+                </div>
+            </div>
+            <div class="backgroundCard__detail workExperience" ng-if="!!resume.work.length">
+                <div class="backgroundCard__icon">
+                    <span class="icon icon-office"></span>
+                    <span class="backgroundCard__mobileTitle">Work Experience</span>
+                </div>
+                <div class="backgroundCard__info">
+                    <h4 class="backgroundCard__title">Work Experience</h4>
+                    <ul class="backgroundCard__list workExperience__list list-unstyled">
+                        <li class="backgroundCard__listElement workExperience__listElement clearfix" ng-repeat="job in resume.work">
+                            <p class="workExperience__jobPosition">
+                                <span title="Currently Working" class="icon-circle backgroundCard__currentEvent workExperience__currentEvent" ng-if="!job.endDate"></span>
+                                <strong>{{ job.position }}</strong>,&nbsp;
+                                <a class="workExperience__jobCompany" href="{{ job.website }}" target="_blank">{{ job.company }}</a>
+                            </p>
+                            <p class="workExperience__jobDate jobDate">
+                                <span class="jobDate__date">{{ job.startDate | date:"MMM, yyyy" }} - {{ job.endDate ? job.endDate : "Present"}}</span>
+                                <span class="jobDate__icon icon-clock"></span>
+                                <span class="jobDate__time">{{ job.duration }}</span>
+                            </p>
+                            <p class="workExperience__jobSummary" ng-if="job.summary">{{ job.summary }}</p>
+                            <ul class="workExperience__jobHighlights" ng-if="job.highlights">
+                                <li ng-repeat="highlight in job.highlights">{{ highlight }}</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="backgroundCard__detail awards" ng-if="!!resume.awards.length">
+                <div class="backgroundCard__icon">
+                    <span class="icon icon-trophy"></span>
+                    <span class="backgroundCard__mobileTitle">Awards</span>
+                </div>
+                <div class="backgroundCard__info">
+                    <h4 class="backgroundCard__title">Awards</h4>
+                    <ul class="backgroundCard__list awards__list list-unstyled">
+                        <li class="backgroundCard__listElement awards__listElement" ng-repeat="award in resume.awards">
+                            <p class="awards__info">
+                                <strong>{{ award.title }} </strong>{{ award.awarder }}
+                            </p>
+                            <p class="awards__date">
+                                <small>Awarded on: {{ award.date | date:"dd MMM, yyyy" }}</small>
+                            </p>
+                            <p class="awards__summary">{{ award.summary }}</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="backgroundCard__detail publications" ng-if="!!resume.publications.length">
+                <div class="backgroundCard__icon">
+                    <span class="icon icon-newspaper"></span>
+                    <span class="backgroundCard__mobileTitle">Work Publications</span>
+                </div>
+                <div class="backgroundCard__info">
+                    <h4 class="backgroundCard__title">Publications</h4>
+                    <ul class="backgroundCard__list publications__list list-unstyled">
+                        <li class="backgroundCard__listElement publications__listElement" ng-repeat="pub in resume.publications">
+                            <p class="publications__info">
+                                <strong><a href="{{ pub.website }}" target="_blank">{{ pub.name }}</a>&nbsp;,&nbsp;</strong>{{ pub.publisher }}
+                            </p>
+                            <p class="publications__date">
+                                <small>Published on: {{ pub.releaseDate | date:"dd MMM, yyyy" }}</small>
+                            </p>
+                            <p class="publications__summary">{{ pub.summary }}</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="backgroundCard__detail skills" ng-if="!!resume.skills.length">
+                <div class="backgroundCard__icon">
+                    <span class="icon icon-tools"></span>
+                    <span class="backgroundCard__mobileTitle">Skills</span>
+                </div>
+                <div class="backgroundCard__info">
+                    <h4 class="backgroundCard__title">Skills</h4>
+                    <ul class="backgroundCard__list skills__list list-unstyled">
+                        <li class="backgroundCard__listElement skills__listElement clearfix" ng-repeat="skill in resume.skills">
+                            <p class="skills__title"><strong>{{ skill.name }}</strong></p>
+                            <ul class="skills__labelsList list-unstyled">
+                                <li class="skills__label" ng-repeat="key in skill.keywords">{{ key }}</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="backgroundCard__detail education" ng-if="!!resume.education.length">
+                <div class="backgroundCard__icon">
+                    <span class="icon icon-graduation-cap"></span>
+                    <span class="backgroundCard__mobileTitle">Education</span>
+                </div>
+                <div class="backgroundCard__info">
+                    <h4 class="backgroundCard__title">Education</h4>
+                    <ul class="backgroundCard__list education__list list-unstyled">
+                        <li class="backgroundCard__listElement education__listElement clearfix" ng-repeat="school in resume.education">
+                            <p class="education__school">
+                                <span title="Currently Pursuing" class="icon-circle backgroundCard__currentEvent education__currentEvent" ng-if="!school.endDate"></span>
+                                <strong>{{ school.area }}, {{ school.studyType }},&nbsp;</strong>
+                                <span>{{ school.institution }}</span>
+                            </p>
+                            <p class="education__schoolDate schoolDate">
+                                <span class="schoolDate__date">{{ school.startDate | date:"MMM, yyyy" }} - {{ school.endDate ? school.endDate : "Present"}}</span>
+                            </p>
+                            <span class="education__schoolGPA" ng-if="school.gpa">{{ school.gpa }}</span>
+                            <ul class="education__schoolHighlights" ng-if="school.highlights">
+                                <li ng-repeat="course in school.courses">{{ course }}</li>
+                            </ul>
+                        </li>
+                    </ul>
+                 </div>
+            </div>
+            <div class="backgroundCard__detail volunteer" ng-if="!!resume.volunteer.length">
+                <div class="backgroundCard__icon">
+                    <span class="icon icon-child"></span>
+                    <span class="backgroundCard__mobileTitle">Volunteer</span>
+                </div>
+                <div class="backgroundCard__info">
+                    <h4 class="backgroundCard__title">Volunteer</h4>
+                    <ul class="backgroundCard__list workExperience__list list-unstyled">
+                        <li class="backgroundCard__listElement workExperience__listElement clearfix" ng-repeat="job in resume.volunteer">
+                            <p class="volunteer__jobPosition">
+                                <span title="Currently Working" class="icon-circle backgroundCard__currentEvent volunteer__currentEvent" ng-if="!job.endDate"></span>
+                                <strong>{{ job.position }}</strong>,&nbsp;
+                                <a class="volunteer__jobCompany" href="{{ job.website }}" target="_blank">{{ job.company }}</a>
+                            </p>
+                            <p class="volunteer__jobDate jobDate">
+                                <span class="jobDate__date">{{ job.startDate | date:"MMM, yyyy" }} - {{ job.endDate ? job.endDate : "Present"}}</span>
+                                <span class="jobDate__icon icon-clock"></span>
+                                <span class="jobDate__time">{{ job.duration }}</span>
+                            </p>
+                            <p class="volunteer__jobSummary" ng-if="job.summary">{{ job.summary }}</p>
+                            <ul class="volunteer__jobHighlights" ng-if="job.highlights">
+                                <li ng-repeat="highlight in job.highlights">{{ highlight }}</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="backgroundCard__detail interests" ng-if="!!resume.interests.length">
+                <div class="backgroundCard__icon">
+                    <span class="icon icon-heart"></span>
+                    <span class="backgroundCard__mobileTitle">Interests</span>
+                </div>
+                <div class="backgroundCard__info">
+                    <h4 class="backgroundCard__title">Interests</h4>
+                    <div class="interests__list">
+                        <strong>{{ resume.interests.list }}</strong>
+                    </div>
+                </div>
+            </div>
+            <div class="backgroundCard__detail references" ng-if="!!resume.references.length">
+                <div class="backgroundCard__icon">
+                    <span class="icon icon-thumbs-up"></span>
+                    <span class="backgroundCard__mobileTitle">References</span>
+                </div>
+                <div class="backgroundCard__info">
+                    <h4 class="backgroundCard__title">References</h4>
+                    <ul class="backgroundCard__list references__list list-unstyled">
+                        <li class="backgroundCard__listElement references__listElement clearfix" ng-repeat="reference in resume.references">
+                            <p class="reference__name"><strong>{{ reference.name }}</strong></p>
+                            <blockquote class="reference__quote">
+                                <p class="reference__text">{{ reference.reference }}</p>
+                            </blockquote>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
     </div>
-  </div>
-</div>
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-  </body>
+    <script src="bundle.js"></script>
+</body>
 </html>
