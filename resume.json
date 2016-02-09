@@ -10,9 +10,9 @@
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Wrocław",
+      "city": "Wroclaw",
       "countryCode": "PL",
-      "region": "Dolnosląskie"
+      "region": "Lower silesian"
     },
     "profiles": [
       {
@@ -39,7 +39,7 @@
       "website": "http://dook.pro",
       "startDate": "2015-03-01",
       "endDate": "",
-      "summary": "Prace przy projektach frontendowych, RWD, tworzenie html na podstawie psd, estymacje projektów, zarządzanie zespołem",
+      "summary": "Work in frontend projects, RWD, create html from psd, project estimation, small team lidership",
       "highlights": []
     },
     {
@@ -48,16 +48,16 @@
       "website": "http://dook.pro",
       "startDate": "2013-07-01",
       "endDate": "2015-03-01",
-      "summary": "Prace nad projektami zarówno po stronie backendu jak i frontendu, estymacje projektów, prowadzenie kilkuosobowych zespołów przy projektach.",
+      "summary": "Working in projects both backend and frontend, project estimation, small team lidership",
       "highlights": []
     }
   ],
   "volunteer": [],
   "education": [
     {
-      "institution": "Politechnika Wrocławska",
-      "area": "Elektronika i Telekomunikacja",
-      "studyType": "Inżynierskie",
+      "institution": "Wroclaw University of Technology",
+      "area": "Electronic and Telecommunication",
+      "studyType": "Bachelor",
       "startDate": "2008-10-01",
       "endDate": "",
       "gpa": "",
@@ -126,7 +126,7 @@
       "keywords": []
     },
     {
-      "name": "Kino",
+      "name": "Movies",
       "keywords": []
     }
   ],
