@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Łukasz Staniszewski",
-    "label": "Webdeveloper",
+    "label": "Web Developer",
     "picture": "https://avatars2.githubusercontent.com/u/2866458?v=3&s=460",
     "email": "staniszewski.lukasz@icloud.com",
     "phone": "510199042",
@@ -12,16 +12,16 @@
       "postalCode": "",
       "city": "Wroclaw",
       "countryCode": "PL",
-      "region": "Lower silesian"
+      "region": "Lower Silesia"
     },
     "profiles": [
       {
-        "network": "Github",
+        "network": "GitHub",
         "username": "lstaniszewski",
         "url": "https://github.com/lstaniszewski"
       },
       {
-        "network": "Stackoverflow",
+        "network": "Stack Overflow",
         "username": "Łukasz Staniszewski",
         "url": "http://stackoverflow.com/users/1517577/Łukasz-staniszewski?tab=profile"
       },
@@ -35,20 +35,20 @@
   "work": [
     {
       "company": "DOOK HF Sp. z o.o. Sp. k.",
-      "position": "Frontend developer",
+      "position": "Frontend Developer",
       "website": "http://dook.pro",
       "startDate": "2015-03-01",
       "endDate": "",
-      "summary": "Work in frontend projects, RWD, create html from psd, project estimation, small team lidership",
+      "summary": "Work in frontend projects, RWD, create html from psd, project estimation, small team leadership",
       "highlights": []
     },
     {
       "company": "DOOK HF Sp. z o.o. Sp. k.",
-      "position": "Webdeveloper",
+      "position": "Web Developer",
       "website": "http://dook.pro",
       "startDate": "2013-07-01",
       "endDate": "2015-03-01",
-      "summary": "Working in projects both backend and frontend, project estimation, small team lidership",
+      "summary": "Working in projects both backend and frontend, project estimation, small team leadership",
       "highlights": []
     }
   ],
