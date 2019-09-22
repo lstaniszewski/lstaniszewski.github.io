@@ -2,9 +2,9 @@
   "basics": {
     "name": "Łukasz Staniszewski",
     "label": "Web Developer",
-    "picture": "https://avatars2.githubusercontent.com/u/2866458?v=3&s=460",
+    "picture": "https://media.licdn.com/dms/image/C5603AQG2LzZVWHWUlg/profile-displayphoto-shrink_200_200/0?e=1574899200&v=beta&t=Vg_5G4skCTTMgqJ2BMxqeO7Mm7V1jN8DkcxYmW_oUUU",
     "email": "staniszewski.lukasz@icloud.com",
-    "phone": "510199042",
+    "phone": "(+48) 510199042",
     "website": "http://lstaniszewski.github.io",
     "summary": "",
     "location": {
@@ -21,7 +21,7 @@
         "url": "https://github.com/lstaniszewski"
       },
       {
-        "network": "Stack Overflow",
+        "network": "StackOverflow",
         "username": "Łukasz Staniszewski",
         "url": "http://stackoverflow.com/users/1517577/Łukasz-staniszewski?tab=profile"
       },
@@ -34,12 +34,21 @@
   },
   "work": [
     {
-      "company": "DOOK HF Sp. z o.o. Sp. k.",
-      "position": "Frontend Developer",
-      "website": "http://dook.pro",
-      "startDate": "2015-03-01",
+      "company": "Kadromierz",
+      "position": "Javascript Developer",
+      "website": "https://stxnext.com",
+      "startDate": "2017-07-01",
       "endDate": "",
-      "summary": "Work in frontend projects, RWD, create html from psd, project estimation, small team leadership",
+      "summary": "Kadromierz is a startup for employee management, work scheduling and attendance tracking. I was mainly responsible for maintaining web application for manager. I also created web based app for attendance tracking and mobile application for employee which was written in React-Native both for Android and iOS.",
+      "highlights": []
+    },
+    {
+      "company": "STX Next",
+      "position": "Javascript Developer",
+      "website": "https://stxnext.com",
+      "startDate": "2016-07-01",
+      "endDate": "2017-07-01",
+      "summary": "In this company I was working in scrum teams in which we did all scrum ceremonies and meetings with client. I worked on application that was focused on ad creation and app for pharmaceutical industry in this project I was also responsible for creation and maintenance of build tasks in Gulp. Then I worked on ticket sale platform and we used React, Relay and graphQL for it.",
       "highlights": []
     },
     {
@@ -47,8 +56,8 @@
       "position": "Web Developer",
       "website": "http://dook.pro",
       "startDate": "2013-07-01",
-      "endDate": "2015-03-01",
-      "summary": "Working in projects both backend and frontend, project estimation, small team leadership",
+      "endDate": "2016-07-01",
+      "summary": "I was working in projects both on frontend and backend using Django and Python to build several CRUD applications. I was creating many advertisement pages and working on e-learning platform. After gaining experience I focused only on frontend part of applications starting from creating html from psd including RWD and then moved to work on SPA using Knockout.js and AngularJS in more demanding projects such as social network app and comparision platform for cosmetic products. I was taking part in project estimations and contact with client from beginning to an end of a project. I was also leading a small team of developers and took part in project management.",
       "highlights": []
     }
   ],
@@ -72,42 +81,32 @@
       "level": "",
       "keywords": [
         "vanillaJS",
+        "ES6",
+        "React",
+        "Redux",
+        "Jest",
+        "ReactNative",
         "AngularJS",
         "Jasmine",
         "NodeJS",
-        "Grunt",
+        "Gulp",
         "Webpack"
       ]
     },
     {
       "name": "Python",
       "level": "",
-      "keywords": [
-        "Django"
-      ]
+      "keywords": ["Django", "Flask"]
     },
     {
       "name": "Protocols/APIs",
       "level": "",
-      "keywords": [
-        "HTTP",
-        "JSON",
-        "OAuth",
-        "RESTful"
-      ]
+      "keywords": ["HTTP", "GraphQL", "JSON", "RESTful"]
     },
     {
       "name": "Other",
       "level": "",
-      "keywords": [
-        "HTML5",
-        "CSS3",
-        "LESS",
-        "SASS",
-        "BEM",
-        "Photoshop",
-        "GIT"
-      ]
+      "keywords": ["HTML5", "CSS3", "LESS", "SASS", "BEM", "GIT"]
     }
   ],
   "languages": [
